@@ -3,4 +3,4 @@ Projects based on Hadoop &amp; Spark
 
 # Meetup.com's RSVP real-time visualization
 
-![](media/record.gif)
+![](https://github.com/tharun-reddy/big-data-projects/blob/master/meetup_rsvp_viz/media/record.gif)
