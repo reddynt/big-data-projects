@@ -1,0 +1,59 @@
+p {
+    color: deepskyblue;
+}
+
+path {
+    stroke: white;
+    stroke-width: 0.15px;
+    fill: #2A2A2A;
+}
+
+ul {
+	list-style-type: none;
+	color: floralwhite !important;
+}
+
+span {
+	vertical-align: middle;
+}
+
+img{
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+svg{
+	background: #7F7F7F;
+}
+
+.page-header{
+	background-color: black;
+	color: white;
+}
+
+body{
+	background-color: black !important;
+}
+
+.row-even{
+	background-color: #7F7F7F !important;
+}
+
+.row{
+	margin-right: 15px !important;
+	margin-left: 15px !important;
+}
+
+button{
+	display: block;
+}
+
+.reset-button-div{
+	padding: 5px;
+}
+
+.btn-danger{
+	background-color: e51937 !important;
+}
+

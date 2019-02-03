@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/custom.css" rel="stylesheet">
+    <title>restaurant locations</title>
+<!--    <script src="../static/lib/js/d3.js"></script>*-->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v0.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/lib/css/flags/flags.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script></head>
+<body>
+    <div id="main" class="container-fluid">
+        <div class="page-header">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h1>Meetup live RSVP ticker</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1 id="total_rsvps"></h1>
+                </div>
+                <div class="col-md-4" id="logo">
+                    <img src="../static/logo/meetup-logo.svg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <div class="row row-even">
+            <div class="col-md-9" id="svg">
+                
+            </div>
+            <div class="col-md-2">
+                <ul id="list">
+                    
+                </ul>
+            </div>
+            <div class="col-md-1 reset-button-div">
+                <button id="reset" type="button" class="btn btn-danger">reset</button>
+                <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+    
+                        <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">starting fresh stream</h4>
+                                </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+<script src="{{ url_for('static', filename='js/geomap.js') }}" type='text/javascript'></script>
+</body>
+</html>
