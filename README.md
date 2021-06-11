@@ -1,4 +1,4 @@
-# big-data-projects
+# real-time RSVP viz (Spark-Bigdata)
 Projects based on Hadoop &amp; Spark
 
 # Meetup.com's RSVP real-time visualization
